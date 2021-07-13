@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 23, 2021 at 12:20 PM
+-- Generation Time: Jul 13, 2021 at 06:31 PM
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.2.34
 
@@ -106,7 +106,6 @@ CREATE TABLE `game` (
 INSERT INTO `game` (`id`, `group_game`, `name`, `company`, `age`, `price`, `system`, `date`, `rating`, `detail`, `image`, `detail_index`) VALUES
 (1, 1, 'Dead by Daylight\r\n', 1, '18+', '369', 1, '14 มิ.ย. 2016', '8/10', 'Dead by Daylight เป็นเกมสยองขวัญแบบผู้เล่นหลายคน (4 ต่อ 1) ซึ่งผู้เล่นหนึ่งคนจะรับบทบาทเป็นฆาตกรป่าเถื่อน และอีกสี่คนจะเล่นเป็นผู้รอดชีวิตที่พยายามหลบหนีจากฆาตกรและหลบเลี่ยงไม่ให้ถูกจับ ถูกทรมาน และถูกฆ่า ', 'deadby.jpg', 'Dead by Daylight เป็นเกมสยองขวัญแบบผู้เล่นหลายคน (4 ต่อ 1) ซึ่งผู้เล่นหนึ่งคนจะรับบทบาทเป็นฆาตกรป่าเaDead by Daylight เป็นเกมสยองขวัญแบบผู้เล่นหลายคน '),
 (2, 2, 'Grand Theft Auto V\r\n', 2, '12+', '699', 1, '14 เม.ย. 2015', '9/10', 'Grand Theft Auto V for PC offers players the option to explore the award-winning world of Los Santos and Blaine County in resolutions of up to 4k and beyond, as well as the chance to experience the game running at 60 frames per second. ', 'gta.jpg', 'Grand Theft Auto V for PC offers players the option to explore the award-winning world of Los Santos and Blaine County in resolutions of up to 4k and '),
-(3, 1, 'ARK: Survival Evolved', 1, '16+', '579 บาท', 2, '28 ส.ค. 2017', '9/10', 'Stranded on the shores of a mysterious island, you must learn to survive. Use your cunning to kill or tame the primeval creatures roaming the land, and encounter other players to survive, dominate... and escape!', 'ark.jpeg', 'Stranded on the shores of a mysterious island, you must learn to survive. Use your cunning to kill or tame the primeval creatures roaming the land, an'),
 (4, 2, 'DEATH STRANDING ', 2, '18+', '    1,890 ', 3, '    14 ก.ค. 2020', '    8/10', 'เชิญพบประสบการณ์ใหม่แหวกแนวจากคุณ Hideo Kojima ผู้สร้างสรรค์เกมเลื่องชื่อ แซม บริดเจส ต้องหาญกล้าตะลุยโลกที่พลิกโฉมไปอย่างสิ้นเชิงเนื่องจาก Death Stranding แซมต้องแบกรับภาระในการสานต่ออนาคตของเราที่แตกเป็นเศษเสี้ยว โดยเดินทางไปทั่ว เพื่อปะติดปะต่อโลกที่แต', 'deathstan.jpg', 'เชิญพบประสบการณ์ใหม่แหวกแนวจากคุณ Hideo Kojima ผู้สร้างสรรค์เกมเลื่องชื่อ แซม บริดเจส ต้องหาญกล้าตะลุยโลกที่พลิกโฉมไปอย่างสิ้นเชิงเนื่องจาก Death Stra'),
 (5, 2, 'Red Dead Redemption 2\r\n', 2, '18+', '1599', 1, '6 ธ.ค. 2019', '9/10', 'Winner of over 175 Game of the Year Awards and recipient of over 250 perfect scores, RDR2 is the epic tale of outlaw Arthur Morgan and the infamous Van der Linde gang, on the run across America at the dawn of the modern age. Also includes access to the sh', 'reddead.jpg', 'Winner of over 175 Game of the Year Awards and recipient of over 250 perfect scores, RDR2 is the epic tale of outlaw Arthur Morgan and the infamous Va'),
 (26, 5, 'The Sims™ 4', 6, '12+', '999', 1, '2 ก.ย. 2014', '7/10', 'ปลดปล่อยจินตนาการของคุณและสร้างโลกซิมที่มีเอกลักษณ์! สำรวจและปรับแต่งทุกรายละเอียด ตั้งแต่ซิมไปจนถึงบ้านและอื่นๆ อีกมากมาย เลือกลุค การแสดงออก ', 'sim4.png', 'ปลดปล่อยจินตนาการของคุณและสร้างโลกซิมที่มีเอกลักษณ์! สำรวจและปรับแต่งทุกรายละเอียด ตั้งแต่ซิมไปจนถึงบ้านและอื่นๆ อีกมากมาย เลือกลุค การแสดงออก '),
@@ -114,7 +113,7 @@ INSERT INTO `game` (`id`, `group_game`, `name`, `company`, `age`, `price`, `syst
 (29, 6, 'The Forest ', 8, '18+', '289', 1, '30 เม.ย. 2018', '7/10', 'As the lone survivor of a passenger jet crash, you find yourself in a mysterious forest battling to stay alive against a society of cannibalistic mutants.', 'forest.jpg', 'As the lone survivor of a passenger jet crash, you find yourself in a mysterious forest battling to stay alive against a society of cannibalistic muta'),
 (30, 3, 'Sniper Elite 4', 5, '18+', '1049', 1, '14 ก.พ. 2017', '8/10', 'Discover unrivalled sniping freedom in the largest and most advanced World War 2 shooter ever built.', 'sniper4.jpg', 'Discover unrivalled sniping freedom in the largest and most advanced World War 2 shooter ever built.'),
 (36, 7, 'eFootball PES 2021', 9, '12+', '790', 2, '15 ก.ย. 2020', '7/10', 'Please note that the latest data for certain licensed leagues and teams will only be available via an update post-release. You will need an internet connection in order to download this update.', 'pes2021.jpg', 'Please note that the latest data for certain licensed leagues and teams will only be available via an update post-release. You will need an internet c'),
-(38, 7, 'art of rally', 10, '12+', '287', 1, '23 ก.ย. 2020', '6/10', 'Race across the world through colorful and stylized environments in top-down view.\r\nCompete for first place in the leaderboards with daily and weekly challenges.', 'rally.jpg', '	Race across the world through colorful and stylized environments in top-down view.\r\nCompete for first place in the leaderboards with daily and weekly'),
+(38, 7, 'art of rally', 10, '12+', '287', 1, '23 ก.ย. 2020', '6/10', 'Race across the world through colorful and stylized environments in top-down view.\nCompete for first place in the leaderboards with daily and weekly challenges.', '', '	Race across the world through colorful and stylized environments in top-down view.\r\nCompete for first place in the leaderboards with daily and weekly'),
 (39, 7, 'F1® 2020', 11, '18+', '699', 3, '9 ก.ค. 2020', '8/10', 'F1® 2020 is the most comprehensive F1® game yet, putting players firmly in the driving seat as they race against the best drivers in the world.', 'f1.jpg', 'F1® 2020 is the most comprehensive F1® game yet, putting players firmly in the driving seat as they race against the best drivers in the world.'),
 (178, 7, 'PGA TOUR 2K21', 12, '12+', '1390', 2, '21 ส.ค. 2020', '6/10', 'The Digital Deluxe Edition that includes the Golden Touch Pack featuring a gold-plated driver and putter, as well as the 2K/adidas CodeChaos MyPLAYER Pack featuring the adidas CodeChaos BOA Golf Shoes, and custom adidas.', 'golf.jpg', 'The Digital Deluxe Edition that includes the Golden Touch Pack featuring a gold-plated driver and putter, as well as the 2K/adidas CodeChaos MyPLAYER '),
 (179, 8, 'Crusader Kings III', 13, '12+', '579', 1, '1 ก.ย. 2020', '6/10', 'Paradox Development Studio brings you the sequel to one of the most popular strategy games ever made.', 'kings.jpg', 'Paradox Development Studio brings you the sequel to one of the most popular strategy games ever made.'),
@@ -223,7 +222,9 @@ INSERT INTO `user` (`id`, `fname`, `lname`, `email`, `birthday`, `sex`, `passwor
 (21, 'Dulyakit', 'Phommachat', 'gamegamegamelove@gmail.com', '2021-03-10', 'ชาย', '123456', 'admin'),
 (23, 'test', '2test', 'dulyakit2542@hotmail.com', '2021-03-09', 'ชาย', '111', NULL),
 (29, 'ณัฐพล', 'นานา', 'abcd@gmail.com', '2021-03-09', 'ชาย', '123456789', NULL),
-(31, 'root', 'root', 'root', '2021-03-23', 'ชาย', 'root', 'admin');
+(31, 'root', 'root', 'root', '2021-03-23', 'ชาย', 'root', 'admin'),
+(32, 'admin', 'root', 'admin@root.com', '2010-05-03', 'ชาย', '000000', NULL),
+(33, 'sdfs', 'sdfsdf', 'rootroot@gafdg.come', '2021-07-14', 'ชาย', 'asd', NULL);
 
 --
 -- Indexes for dumped tables
@@ -273,13 +274,13 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT for table `game`
 --
 ALTER TABLE `game`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=394;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=397;
 
 --
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=32;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
 
 --
 -- Constraints for dumped tables
