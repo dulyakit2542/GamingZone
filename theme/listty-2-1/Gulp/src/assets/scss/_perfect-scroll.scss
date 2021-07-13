@@ -1,0 +1,19 @@
+/* Perfect Scroll For Message */
+#message {
+  position: relative;
+  height: 373px;
+  overflow: auto;
+  @include media-breakpoint-up(xl){
+    height: 465px;
+  }
+}
+
+/* Perfect Scroll For Chats */
+#chats {
+  position: relative;
+  height: 325px;
+  overflow: auto;
+  @include media-breakpoint-up(xl){
+    height: 415px;
+  }
+}

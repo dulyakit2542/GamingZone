@@ -1,0 +1,39 @@
+<tr>
+                  <td><label for="Image1"><img src="IMAGE/Imagebt.png" width="170" height="30" alt="" /></label>&nbsp;
+                    <input type="file" name="Image1" id="Image1">
+                  </td>
+                </tr>
+
+
+
+script
+if (isset($_POST['submit'])) {
+
+    $Number = $_POST['Number'];
+    $Character = $_POST['Character'];
+    $Name = $_POST['Name'];
+    $Difficulty_rating = $_POST['Difficulty_rating'];
+    $Perks = $_POST['Perks'];
+    $DLC = $_POST['DLC'];
+    $Image1 = $_FILES['Image1']['name'];
+    $Image2 = $_FILES['Image2']['name'];
+    // image file directory
+    $target1 = "IMAGE/image/" . basename($Image1);
+    $target2 = "IMAGE/Proflie/" . basename($Image2);
+
+
+    $sql = "INSERT INTO main ( Number,Character_1,Name,Difficulty_rating,Perks,DLC_Code,Image,Proflie) VALUES ('$Number', '$Character', '$Name', '$Difficulty_rating', '$Perks', '$DLC','$Image1','$Image2')";
+    // execute query
+    mysqli_query($db, $sql);
+
+    if (move_uploaded_file($_FILES['Image1']['tmp_name'], $target1)) {
+      $msg = "Image uploaded successfully";
+    } else {
+      $msg = "Failed to upload image";
+    }
+    if (move_uploaded_file($_FILES['Image2']['tmp_name'], $target2)) {
+      $msg = "Image uploaded successfully";
+    } else {
+      $msg = "Failed to upload image";
+    }
+  }

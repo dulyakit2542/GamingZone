@@ -1,0 +1,114 @@
+<body class="register-page">
+
+  <!-- Main Navigation -->
+  <header>
+
+    <!-- Intro Section -->
+    <section class="view intro-2">
+      <div class="mask rgba-stylish-strong h-100 d-flex justify-content-center align-items-center">
+
+
+        <!-- Grid row -->
+        <div class="row pt-5">
+
+          <!-- Grid column -->
+          <div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 mx-auto mt-10">
+
+            <div class="card">
+              <div class="card-body">
+
+                <h2 class="font-weight-bold my-4 text-center mb-5 mt-5 font-weight-bold">
+                  <strong>แก้ไขข้อมูล </strong>
+                </h2>
+                <hr>
+                <form method="post" action="<?php echo base_url() . 'dashboard/dashboard_view'; ?>">
+
+
+              
+
+                  <!-- Grid row -->
+                  <div class="row mt-6">
+
+                    <!-- Grid column -->
+                    <div class="col-md-6 ml-lg-5 ">
+                      <!-- Grid row -->
+
+                      <div class="row pb-1">
+
+                       <!-- ROW1  -->
+                      <div class="md-form">
+                       <div >ชื่อเกม</div> 
+                      <input name="company" type="text" class="form-control pass-swap" value=" <?php echo $game[0]->name;?>">
+                      </div><div class="col-lg-1"></div>
+                        
+                        <div class="md-form">
+                       <div >หมวดหมู่</div> 
+                      <input name="company" type="text" class="form-control pass-swap" value=" <?php echo $game[0]->name_group;?>">
+                      </div> <div class="col-lg-1"></div>
+
+                      <div class="md-form">
+                       <div >บริษัทผู้พัฒนา</div> 
+                      <input name="company" type="text" class="form-control pass-swap" value=" <?php echo $game[0]->company;?>">
+                      </div> 
+                        
+<!-- RO2  -->
+                        <div class="md-form">
+                       <div >วันที่วางจำหน่าย</div> 
+                      <input name="company" type="text" class="form-control pass-swap" value=" <?php echo $game[0]->date;?>">
+                      </div> <div class="col-lg-1"></div>
+<div class="md-form">
+                       <div >อายุขั้นต่ำของผู้เล่น</div> 
+                      <input name="company" type="text" class="form-control pass-swap" value=" <?php echo $game[0]->age;?>">
+                      </div><div class="col-lg-1"></div>
+
+                        <div class="md-form">
+                       <div >ราคา</div> 
+                      <input name="company" type="text" class="form-control pass-swap" value=" <?php echo $game[0]->price;?> บาท">
+                      </div>
+<!-- ROW3  -->
+                      <div class="md-form">
+                       <div >ความนิยม</div> 
+                      <input name="company" type="text" class="form-control pass-swap" value=" <?php echo $game[0]->rating;?>">
+                      </div> <div class="col-lg-10"></div>
+                        
+
+                      
+                      <div class="md-form">
+                      <div >รายละเอียด</div> 
+      <textarea value=" <?php echo $game[0]->detail;?>" class="form-control" rows="" id="comment" ><?php echo $game[0]->detail;?></textarea>
+    </div> 
+
+
+</div>
+    <div class="col-md-5">
+
+<!-- Grid row -->
+<div class="row pb-4 d-flex justify-content-center mb-4">
+
+</div>
+                      <div class="text-center">
+                        <button class="btn btn-indigo btn-rounded mt-5 ">สมัครสมาชิก</button>
+                      </div>
+                      </div>
+                      <br>
+                     
+
+                   
+                  <!-- Grid row -->
+                </form>
+              </div>
+            </div>
+
+          </div>
+          <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+      </div>
+      </div>
+    </section>
+    <!-- Intro Section -->
+
+  </header>
+  <!-- Main Navigation -->
